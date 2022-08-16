@@ -1,0 +1,14 @@
+{
+  "profiles": {
+    "DockerExFunctionApp": {
+      "commandName": "Project",
+      "commandLineArgs": "--port 7254"
+    },
+    "Docker": {
+      "commandName": "Docker",
+      "launchUrl": "{Scheme}://{ServiceHost}:{ServicePort}",
+      "httpPort": 30361,
+      "useSSL": false
+    }
+  }
+}
